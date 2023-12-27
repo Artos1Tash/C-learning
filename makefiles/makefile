@@ -1,4 +1,9 @@
+# CFLAGS uses any gcc compiler flags
 CFLAGS = -Wno-implicit-function-declaration
+
+# All takes the final as a required argument. 
+# Then it goes to final. Final takes files main.o and hello.o as an argument
+# Clean just clears everything
 
 all: final
 
